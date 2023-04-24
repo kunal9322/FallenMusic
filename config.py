@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","16743442"))
+API_HASH = getenv("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
 
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "5935778941:AAG_Sn9YGJQnklXJ4M4KUcihXOSMeQ7TuwY")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -18,10 +18,10 @@ START_IMG = getenv("START_IMG", "https://te.legra.ph/file/f8ba75bdbb9931cbc8229.
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_Krew")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_Campus")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1356469075").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5885920877").split()))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
