@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
 BOT_TOKEN = getenv("BOT_TOKEN", "5935778941:AAG_Sn9YGJQnklXJ4M4KUcihXOSMeQ7TuwY")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID","6091170475"))
 
 PING_IMG = getenv("PING_IMG", "https://graph.org/file/391572b9bf7b02bbb7b2e.jpg")
 START_IMG = getenv("START_IMG", "https://graph.org/file/391572b9bf7b02bbb7b2e.jpg")
