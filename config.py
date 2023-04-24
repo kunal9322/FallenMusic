@@ -16,7 +16,7 @@ OWNER_ID = int(getenv("OWNER_ID"))
 PING_IMG = getenv("PING_IMG", "https://graph.org/file/391572b9bf7b02bbb7b2e.jpg")
 START_IMG = getenv("START_IMG", "https://graph.org/file/391572b9bf7b02bbb7b2e.jpg")
 
-SESSION = getenv("SESSION", None)
+SESSION = getenv("SESSION", "BQHGe6gApaEwMFW1SWfDTYXOvN89XpqXSefnZOYwClcUDmtEOhdA9-0HZls9k8cHs5wUfL6fxkYXY-wU2iU0_fWYFyPV09q9kvuZKCuoVshXZ4iQJm-082st7GLSjr17OOuepB7c6sfaYLL5s5O-WUdG6UWWwE1cH-JSrD65QgGNlCqHUf1SvZrruFh1svngmwt5nzrKllZGYyG_4rE1X7CfiOSJPpPo1upimw_OIWWehC9oK-4dRs4SJqPJWR8xaWqI8PuO1jaqUVRwfHv_bXXUKWoO_TX_G8TOumPGjgM1eVoOay3uLxqkB5kQSjNUPfsg5GFaIHPXcUtcd5m-s85qZU9-rwAAAAFV2NW_AA")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_Krew")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_Campus")
